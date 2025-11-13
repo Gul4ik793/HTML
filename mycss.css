@@ -1,0 +1,31 @@
+body {
+            background-color: #E0FFFF;
+            font-family: Arial, sans-serif;
+}
+h1 {
+    color: #007BFF;
+	font-size: 36px;
+    text-align: center;
+}
+h2 {
+    color: #007BFF;
+	font-family: 30px
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    color: #007BFF;
+    font-size: 30px;
+    text-align: center;
+p {
+    color: #555;
+   line-height: 1.6;
+}
+.paragraf1{
+color: red;
+}
+.paragraf2{
+color: green;
+}
+.paragraf3{
+color: blue;
