@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    	<meta charset="UTF-8">
+	<title>Анкета</title>
+  	<link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+  <div>
+    <h1>
+    	<p><strong>Анкета участника <strong></p>
+	  </h1>
+	<ol style="list-style-type: circle;">
+    <h2>
+    <li>Личные данные:</li>
+    </h2>
+      <ul style="list-style-type: none;">
+    	  <form action="/feedback" method="POST">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" name="name" required><BR>
+
+          <label for="age">Ваш возраст:</label>
+          <input type="number" id="age" name="age" required><BR>
+
+          <label for="addres">Адрес:</label>
+          <input type="" id="addres" name="addres" required><BR>
+  
+          <label for="phone">Телефон:</label>
+          <input type="tel" id="phone" name="phone" required><BR>
+  
+          <label for="email">Электронна почта:</label>
+          <input type="text" id="email" name="email" required><BR>
+
+          <label for="name">Прикрепите вашу фотографию</label>
+    	    <input type = "file" name = "type_file" required><BR>
+    	  </form>
+      <ul>
+    </ol>
+    <ol style="list-style-type: circle;">
+    <h2>
+    <li>Увлечения:</li>
+    </h2>
+    <ul style="list-style-type: none;">
+    	  <form action="/feedback" method="POST">
+          <label for="hobby">Есть ли у вас хобби:</label>
+          <input name="hobby" type="radio" checked value="Yes">Да
+	        <input name="hobby" type="radio" value="No">Нет<BR>
+
+          <label for="books">Если есть, то какое:</label>
+          <input type="text" id="books" name="books"><BR>
+
+          <label for="film">Какие фильмы предпочитаете смотреть:</label>
+          <ul ul style="list-style-type: none;">
+            <label for="name">Ужасы</label>
+            <input type="checkbox" name="type_check" value = "chk1" checked><BR>
+
+            <label for="name">Фантастика</label>
+            <input type="checkbox" name="type_check" value = "chk1" checked><BR>
+
+            <label for="name">Драма</label>
+            <input type="checkbox" name="type_check" value = "chk1" checked><BR>
+
+            <label for="name">Иной, укажите какой </label>
+            <input type="text" id="sport" name="sport"><BR>
+          </ul>
+  
+          <label for="sport">Каким видом спорта любите заниматься:</label>
+          <ul ul style="list-style-type: none;">
+            <label for="name">Плавание</label>
+            <input type="checkbox" name="type_check" value = "chk1" checked><BR>
+
+            <label for="name">Бокс</label>
+            <input type="checkbox" name="type_check" value = "chk1" checked><BR>
+
+            <label for="name">Скалалазание</label>
+            <input type="checkbox" name="type_check" value = "chk1" checked><BR>
+
+            <label for="name">Иной, укажите какой </label>
+            <input type="text" id="sport" name="sport"><BR>
+            </ul>
+          
+        </form>
+      <ul>
+	</ol>
+  </div>
+  <p class="p2"><button type="submit">Отправить</button></p>
+</body>
+</html>
